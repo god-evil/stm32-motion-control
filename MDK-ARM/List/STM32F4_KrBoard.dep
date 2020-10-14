@@ -1,0 +1,7 @@
+Dependencies for Project 'STM32F4', Target 'KrBoard': (DO NOT MODIFY !)
+F (..\App\StartUp.s)(0x5F5F0ED3)(--cpu Cortex-M4 --li --apcs=interwork -I E:\BGG1000\MCU\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM4\Include--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "ARMCM4 SETA 1"-o .\list\startup.o --depend .\list\startup.d)
+F (..\App\App.c)(0x5F804D32)(-c --cpu Cortex-M4 --li -O0 --apcs=interwork --signed_chars -I..\BSP -I..\App -I..\FWLib\STM32F4xx_HAL_Driver\Inc\Legacy -I..\FWLib\CMSIS\Device\ST\STM32F4xx\Include -I..\FWLib\CMSIS\Include -I..\FWLib\STM32F4xx_HAL_Driver\Inc --C99-I E:\BGG1000\MCU\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="515" -D_RTE_ -DARMCM4 -DUSE_HAL_DRIVER -DSTM32F407xx-o .\list\app.o --omf_browse .\list\app.crf --depend .\list\app.d)
+I (..\App\ActLib.h)(0x5F6C04B0)
+I (..\App\App.h)(0x5F6D52DB)
+I (..\App\ElectricalTree.h)(0x5F6457DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)

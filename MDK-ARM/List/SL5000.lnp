@@ -1,0 +1,8 @@
+--cpu Cortex-M4
+".\list\startup.o"
+".\list\app.o"
+--nodebug --strict --scatter ".\List\SL5000.sct"
+--diag_suppress=L6314
+--diag_suppress=L6305W --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SL5000.map" -o .\List\SL5000.axf

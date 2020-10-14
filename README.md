@@ -1,3 +1,3 @@
-# KrBGG2000
-MCU Program
-BGG2000智能保管柜底层控制程序!
+# stm32 运动控制Demo
+步进电机
+传感器检测
